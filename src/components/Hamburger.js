@@ -49,17 +49,17 @@ const Hamburger = ({ state }) => {
               <nav>
                 <ul>
                   <li>
-                    <Link onMouseEnter={(e) => handleHover(e)} onMouseOut={(e) => handleHoverExit(e)} ref={(el) => (line1 = el)} to="/about-me">
+                    <Link onMouseEnter={(e) => handleHover(e)} onMouseOut={(e) => handleHoverExit(e)} ref={(el) => (line1 = el)} to="/About-me">
                       About me
                     </Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={(e) => handleHover(e)} onMouseOut={(e) => handleHoverExit(e)} ref={(el) => (line2 = el)} to="/skills">
+                    <Link onMouseEnter={(e) => handleHover(e)} onMouseOut={(e) => handleHoverExit(e)} ref={(el) => (line2 = el)} to="/Skills">
                       Skills
                     </Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={(e) => handleHover(e)} onMouseOut={(e) => handleHoverExit(e)} ref={(el) => (line3 = el)} to="/contact-me">
+                    <Link onMouseEnter={(e) => handleHover(e)} onMouseOut={(e) => handleHoverExit(e)} ref={(el) => (line3 = el)} to="/Contact-me">
                       Contact me
                     </Link>
                   </li>
