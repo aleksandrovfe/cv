@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/aleksandrovfe/cv/static/css/main.916f9f66.chunk.css",
+    "main.js": "/aleksandrovfe/cv/static/js/main.17e5be30.chunk.js",
+    "main.js.map": "/aleksandrovfe/cv/static/js/main.17e5be30.chunk.js.map",
+    "runtime-main.js": "/aleksandrovfe/cv/static/js/runtime-main.3e95cbaf.js",
+    "runtime-main.js.map": "/aleksandrovfe/cv/static/js/runtime-main.3e95cbaf.js.map",
+    "static/js/2.8875d481.chunk.js": "/aleksandrovfe/cv/static/js/2.8875d481.chunk.js",
+    "static/js/2.8875d481.chunk.js.map": "/aleksandrovfe/cv/static/js/2.8875d481.chunk.js.map",
+    "index.html": "/aleksandrovfe/cv/index.html",
+    "precache-manifest.0fa1d029e30b5c60911ff56af5b1c12f.js": "/aleksandrovfe/cv/precache-manifest.0fa1d029e30b5c60911ff56af5b1c12f.js",
+    "service-worker.js": "/aleksandrovfe/cv/service-worker.js",
+    "static/css/main.916f9f66.chunk.css.map": "/aleksandrovfe/cv/static/css/main.916f9f66.chunk.css.map",
+    "static/media/img.webp": "/aleksandrovfe/cv/static/media/img.2bb10194.webp",
+    "static/media/img2.webp": "/aleksandrovfe/cv/static/media/img2.6fd6505f.webp",
+    "static/media/img3.webp": "/aleksandrovfe/cv/static/media/img3.5d009b5a.webp",
+    "static/media/img4.webp": "/aleksandrovfe/cv/static/media/img4.7bb8b8ca.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e95cbaf.js",
+    "static/js/2.8875d481.chunk.js",
+    "static/css/main.916f9f66.chunk.css",
+    "static/js/main.17e5be30.chunk.js"
+  ]
+}
