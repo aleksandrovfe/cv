@@ -4,16 +4,11 @@ import { Link } from "react-router-dom";
 
 import { staggerText, staggerReveal, fadeInUp, handleHover, handleHoverExit, handleWokrReturn, handleWokr, staggerRevealClose } from "./Animations";
 
-import socialNetwork from "../images/img.webp";
-import presentationPage from "../images/img4.webp";
-import phoneCatalog from "../images/img3.webp";
-import todoApp from "../images/img2.webp";
-
 const pages = [
-  { name: "Social Network", image: socialNetwork, link: "https://aleksandrovfe.github.io/socialnetwork/#/socialnetwork/profile" },
-  { name: "Presentation Page", image: presentationPage, link: "https://aleksandrovfe.github.io/pattern/" },
-  { name: "Phone Catalog", image: phoneCatalog, link: "https://aleksandrovfe.github.io/react_phone-catalog/#/" },
-  { name: "Todo App", image: todoApp, link: "https://aleksandrovfe.github.io/react_todo-app/#/" },
+  { name: "Social Network", image: "assets/img.webp", link: "https://aleksandrovfe.github.io/socialnetwork/#/socialnetwork/profile" },
+  { name: "Presentation Page", image: "assets/img4.webp", link: "https://aleksandrovfe.github.io/pattern/" },
+  { name: "Phone Catalog", image: "assets/img3.webp", link: "https://aleksandrovfe.github.io/react_phone-catalog/#/" },
+  { name: "Todo App", image: "assets/img2.webp", link: "https://aleksandrovfe.github.io/react_todo-app/#/" },
 ];
 
 const Hamburger = ({ state }) => {
@@ -79,7 +74,13 @@ const Hamburger = ({ state }) => {
               <div className="list-links">
                 My works:
                 {pages.map((el) => (
-                  <a href={el.link} className="link-to-work" key={el.name} onMouseEnter={() => handleWokr(el.image, workBackground)} onMouseOut={() => handleWokrReturn(workBackground)}>
+                  <a
+                    href={el.link}
+                    className="link-to-work"
+                    key={el.name}
+                    onMouseEnter={() => handleWokr(el.image, workBackground)}
+                    onMouseOut={() => handleWokrReturn(workBackground)}
+                  >
                     {el.name}
                   </a>
                 ))}
