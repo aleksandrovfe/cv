@@ -59,15 +59,19 @@ function Contact() {
     return (
         <p>
             Dnipro, Ukraine <br/>+38(067)-597-09-40 (<a className="contact-link"
-                                                            href="https://telegram.im/@AleksandrovAlexandr"
-                                                            target="_blank">Telegram</a>, Viber),
+                                                        href="https://telegram.im/@AleksandrovAlexandr"
+                                                        target="_blank">Telegram</a>, Viber),
             +38(099)-647-26-71<br/>
             <a className="contact-link contact-link__lover-case"
-               href="mailto:alexandrov6927@gmail.com">alexandrov6927@gmail.com</a> <br/>
+               href="mailto:alexandrov6927@gmail.com" target="_blank">alexandrov6927@gmail.com</a> <br/>
             Skype - <a href="skype:alexandrov6927?chat"
-                       className="contact-link contact-link__lover-case"> alexandrov6927</a><br/>{" "}
-            <a className="contact-link" href="https://www.linkedin.com/in/aleksandr-aleksandrov-1040a8116/">
+                       className="contact-link contact-link__lover-case" target="_blank">alexandrov6927</a><br/>
+            <a className="contact-link" href="https://www.linkedin.com/in/aleksandr-aleksandrov-1040a8116/"
+               target="_blank">
                 LinkedIn
+            </a> <br/>
+            <a className="contact-link" href="https://github.com/aleksandrovfe" target="_blank">
+                GitHub
             </a>
         </p>
     );
