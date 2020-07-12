@@ -40,9 +40,9 @@ const Hamburger = ({ state }) => {
 
   return (
     <div ref={(el) => (menuLayer = el)} className="hamburger-menu">
-      <div ref={(el) => (reveal1 = el)} className="menu-secondary-background-color"></div>
+      <div ref={(el) => (reveal1 = el)} className="menu-secondary-background-color"/>
       <div ref={(el) => (reveal2 = el)} className="menu-layer">
-        <div ref={(el) => (workBackground = el)} className="menu-work-background"></div>
+        <div ref={(el) => (workBackground = el)} className="menu-work-background"/>
         <div className="container">
           <div className="wrapper">
             <div className="menu-links">
@@ -80,6 +80,7 @@ const Hamburger = ({ state }) => {
                     key={el.name}
                     onMouseEnter={() => handleWokr(el.image, workBackground)}
                     onMouseOut={() => handleWokrReturn(workBackground)}
+                    target="_blank"
                   >
                     {el.name}
                   </a>

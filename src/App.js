@@ -71,8 +71,7 @@ function Contact() {
                 LinkedIn
             </a> <br/>
             <a className="contact-link" href="https://github.com/aleksandrovfe" target="_blank">
-                GitHub
-            </a>
+                GitHub</a>
         </p>
     );
 }
