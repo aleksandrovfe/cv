@@ -6,8 +6,9 @@ import { staggerText, staggerReveal, fadeInUp, handleHover, handleHoverExit, han
 
 const pages = [
   { name: "Social Network", image: "assets/img.webp", link: "https://aleksandrovfe.github.io/socialnetwork/#/socialnetwork/profile" },
+  { name: "Instagram clone", image: "assets/img5.webp", link: "https://insta-gram-56ef1.web.app/" },
   { name: "Presentation Page", image: "assets/img4.webp", link: "https://aleksandrovfe.github.io/pattern/" },
-  { name: "Phone Catalog", image: "assets/img3.webp", link: "https://aleksandrovfe.github.io/react_phone-catalog/#/" },
+  // { name: "Phone Catalog", image: "assets/img3.webp", link: "https://aleksandrovfe.github.io/react_phone-catalog/#/" },
   { name: "Todo App", image: "assets/img2.webp", link: "https://aleksandrovfe.github.io/react_todo-app/#/" },
 ];
 
