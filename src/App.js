@@ -1,8 +1,14 @@
 import React from "react";
 import "./App.scss";
-
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {
+    faGoogle,
+    faTelegram,
+    faSkype,
+    faLinkedin,
+    faGithub,
+} from '@fortawesome/free-brands-svg-icons';
 import Header from "./components/Header";
-
 import {Switch, Route} from "react-router-dom";
 
 function App() {
@@ -35,13 +41,10 @@ function About() {
             user-friendly Web products from scratch. Using modern technologies
             to design websibtes and related
             materials. Love coding, have extensive
-            knowledge in JavaScript, React, Redux, HTML5, CSS/SASS. <br/>
+            knowledge in JavaScript, Python, Vue, React <br/>
             <br/>
-            <b>Current job:</b> BearsSoftware (Oversecured), web developer,
+            <b>Current job:</b> BearsSoftware, software engineer,
             since 05/01/20 <br/><br/>
-            <b>Education:</b> Oles Honchar Dnipro National University,
-            specialty: Faculty of Mechanics and Mathematics
-            (teacher of mathematics).<br/>
             <b>Frontend courses:</b> full-time online course 4 months HTML, CSS,
             JavaScript, React, Redux.<br/>
             <b>Internships(6 months)</b>: Epam - HTML, CSS, JavaScript,
@@ -61,7 +64,7 @@ function About() {
                 hosting, analytics, cloud firestore) <br/><br/>
 
                 <b><a className="contact-link" target="_blank"
-                       href="https://cloud-fun-a0417.web.app/">&#8226;mask</a></b> -
+                      href="https://cloud-fun-a0417.web.app/">&#8226;mask</a></b> -
                 Initially, I created this project to connect people from
                 different industries, to acquire connections that you can be
                 proud of, I tried to advertise this project at various meetups,
@@ -93,11 +96,10 @@ function About() {
 function Skills() {
     return (
         <p>
-            JavaScript(ES6), React, Redux, Vue, VUEX, NodeJS, Express, CSS,
+            JavaScript(ES6), TypeScript, Python, React, AWS, Redux, Vue, VUEX, NodeJS, Express, CSS,
             HTML5, GSAP, BEM, SASS(SCSS), Unit Testing, Git, Firebase. <br/>
             <br/>
-            <b>initial introduction:</b> TypeScript(React), AWS, Webpack,
-            Flutter.
+            <b>initial introduction:</b> Webpack, Flutter.
             <br/> <br/>
             <b>Languages:</b> English (intermediate), Russian, Ukrainian.
         </p>
@@ -106,27 +108,55 @@ function Skills() {
 
 function Contact() {
     return (
-        <p>
-            Dnipro, Ukraine <br/>+38(067)-597-09-40 (<a
-            className="contact-link"
-            href="https://telegram.im/@AleksandrovAlexandr"
-            target="_blank">Telegram</a>, Viber),
-            +38(099)-647-26-71<br/>
-            <a className="contact-link contact-link__lover-case"
-               href="mailto:alexandrov6927@gmail.com"
-               target="_blank">alexandrov6927@gmail.com</a> <br/>
-            Skype - <a href="skype:alexandrov6927?chat"
-                       className="contact-link contact-link__lover-case"
-                       target="_blank">alexandrov6927</a><br/>
-            <a className="contact-link"
-               href="https://www.linkedin.com/in/aleksandr-aleksandrov-1040a8116/"
-               target="_blank">
-                LinkedIn
-            </a> <br/>
-            <a className="contact-link"
-               href="https://github.com/aleksandrovfe" target="_blank">
-                GitHub</a>
-        </p>
+        <>
+            <ul className="list-icons">
+                <li className="list-icons__item">
+                    <a href="https://telegram.im/@alexandr_aleksandrov" target="_blank">
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <FontAwesomeIcon className="list-icons__item-span" icon={faTelegram}/>
+                    </a>
+                </li>
+                <li className="list-icons__item">
+                    <a href="mailto:alexandrov6927@gmail.com" target="_blank">
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <FontAwesomeIcon className="list-icons__item-span" icon={faGoogle}/>
+                    </a>
+                </li>
+                <li className="list-icons__item">
+                    <a href="skype:alexandrov6927?chat" target="_blank">
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <FontAwesomeIcon className="list-icons__item-span" icon={faSkype}/>
+                    </a>
+                </li>
+                <li className="list-icons__item">
+                    <a href="https://www.linkedin.com/in/aleksandr-aleksandrov-1040a8116/" target="_blank">
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <FontAwesomeIcon className="list-icons__item-span" icon={faLinkedin}/>
+                    </a>
+                </li>
+                <li className="list-icons__item">
+                    <a href="https://github.com/aleksandrovfe" target="_blank">
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <span className="list-icons__item-span"></span>
+                        <FontAwesomeIcon className="list-icons__item-span" icon={faGithub}/>
+                    </a>
+                </li>
+            </ul>
+        </>
     );
 }
 
@@ -134,8 +164,8 @@ function Home() {
     return (
         <div className="container">
             <div className="wrapper">
-                <h5>
-                    Hi, I’m a <b> web developer </b> and I hope that this site
+                <h5 className="home__text">
+                    Hi, I’m a <b> software engineer </b> and I hope that this site
                     will help you become more familiar
                     with my projects and my skills.
                 </h5>
