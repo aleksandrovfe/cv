@@ -41,7 +41,7 @@ function About() {
             user-friendly Web products from scratch. Using modern technologies
             to design websibtes and related
             materials. Love coding, have extensive
-            knowledge in JavaScript, Vue, NodeJS AWS <br/>
+            knowledge in JavaScript, Vue, NodeJS, AWS <br/>
             <br/>
             <b>Current job:</b> BearsSoftware, software engineer,
             since 05/01/20 <br/><br/>
