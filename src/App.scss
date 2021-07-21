@@ -20,18 +20,21 @@ body {
 
   .wrapper {
     padding: 0 48px;
+
     .home {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100%;
       width: 100%;
+
       p {
         font-size: 1.1rem;
         letter-spacing: 0.2rem;
         font-weight: 500;
         text-transform: uppercase;
       }
+
       h5 {
         margin-top: 260px;
         font-size: 24px;
@@ -44,6 +47,7 @@ body {
 
 header {
   height: 100px;
+
   .inner-header {
     position: fixed;
     width: 90%;
@@ -52,12 +56,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .logo a {
       font-weight: 700;
       font-size: 1rem;
       text-decoration: none;
       color: $black;
     }
+
     .menu {
       button {
         border: none;
@@ -69,6 +75,7 @@ header {
       }
     }
   }
+
   .hamburger-menu {
     display: none;
     z-index: 9;
@@ -78,6 +85,7 @@ header {
     position: fixed;
     height: 100%;
     width: 100%;
+
     .menu-secondary-background-color {
       background: $black;
       top: 0;
@@ -89,11 +97,13 @@ header {
       width: 100%;
       z-index: -1;
     }
+
     .menu-layer {
       position: relative;
       background: $red;
       height: 100%;
       overflow: hidden;
+
       .menu-work-background {
         top: 0;
         left: 0;
@@ -109,19 +119,24 @@ header {
         animation-duration: 30s;
         animation-iteration-count: infinite;
       }
+
       .wrapper {
         position: relative;
+
         .menu-links {
           display: flex;
           justify-content: space-between;
           align-items: center;
           position: relative;
           top: 100px;
+
           nav {
             display: block;
+
             ul {
               margin: 0;
               padding: 0;
+
               li {
                 list-style: none;
                 font-size: 6rem;
@@ -131,10 +146,12 @@ header {
                 overflow: hidden;
                 position: relative;
                 width: 700px;
+
                 a {
                   position: absolute;
                   color: #fff;
                   text-decoration: none;
+
                   &:hover {
                     color: $black;
                   }
@@ -142,19 +159,23 @@ header {
               }
             }
           }
+
           .info {
             color: #fff;
             width: 300px;
+
             h3 {
               font-size: 1.2rem;
               margin: 8px auto;
             }
+
             p {
               margin: 0 auto;
               font-size: 0.8rem;
             }
           }
         }
+
         .list-links {
           position: absolute;
           bottom: -80px;
@@ -227,6 +248,7 @@ header {
 @media (max-width: 950px) {
   header {
     height: 100px;
+
     .inner-header {
       position: relative;
       z-index: 10;
@@ -234,12 +256,14 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       .logo a {
         font-weight: 700;
         font-size: 1rem;
         text-decoration: none;
         color: $black;
       }
+
       .menu {
         button {
           border: none;
@@ -251,6 +275,7 @@ header {
         }
       }
     }
+
     .hamburger-menu {
       display: none;
       z-index: 9;
@@ -260,6 +285,7 @@ header {
       position: fixed;
       height: 100%;
       width: 100%;
+
       .menu-secondary-background-color {
         background: $black;
         top: 0;
@@ -271,11 +297,13 @@ header {
         width: 100%;
         z-index: -1;
       }
+
       .menu-layer {
         position: relative;
         background: $red;
         height: 100%;
         overflow: visible;
+
         .menu-work-background {
           top: 0;
           left: 0;
@@ -291,19 +319,24 @@ header {
           animation-duration: 30s;
           animation-iteration-count: infinite;
         }
+
         .wrapper {
           position: relative;
+
           .menu-links {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             position: relative;
             top: 200px;
+
             nav {
               display: block;
+
               ul {
                 margin: 0;
                 padding: 0;
+
                 li {
                   list-style: none;
                   font-size: 3rem;
@@ -313,10 +346,12 @@ header {
                   overflow: hidden;
                   position: relative;
                   width: 700px;
+
                   a {
                     position: absolute;
                     color: #fff;
                     text-decoration: none;
+
                     &:hover {
                       color: $black;
                     }
@@ -324,19 +359,23 @@ header {
                 }
               }
             }
+
             .info {
               color: #fff;
               width: 300px;
+
               h3 {
                 font-size: 1.2rem;
                 margin: 8px auto;
               }
+
               p {
                 margin: 0 auto;
                 font-size: 0.8rem;
               }
             }
           }
+
           .list-links {
             position: absolute;
             bottom: -80px;
@@ -368,14 +407,17 @@ header {
   .container {
     max-width: 1280px;
     margin: 0 auto;
+
     .wrapper {
       padding: 0 10px;
       overflow: visible;
+
       .home {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
+
         p {
           font-size: 1.1rem;
           letter-spacing: 0.3rem;
@@ -383,6 +425,7 @@ header {
           text-transform: uppercase;
           word-break: break-word;
         }
+
         h5 {
           margin-top: 100px;
           font-size: 24px;
@@ -403,7 +446,43 @@ header {
 
 .home__text {
   z-index: 1000000 !important;
+  -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+@-webkit-keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: 0 0.1px 0 #cccccc, 0 0.2px 0 #cccccc, 0 0.3px 0 #cccccc, 0 0.4px 0 #cccccc, 0 0.5px 0 #cccccc, 0 0.6px 0 #cccccc, 0 0.7px 0 #cccccc, 0 0.8px 0 #cccccc, 0 0.9px 0 #cccccc, 0 0.50px 0.30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes text-pop-up-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: 0 0.1px 0 #cccccc, 0 0.2px 0 #cccccc, 0 0.3px 0 #cccccc, 0 0.4px 0 #cccccc, 0 0.5px 0 #cccccc, 0 0.6px 0 #cccccc, 0 0.7px 0 #cccccc, 0 0.8px 0 #cccccc, 0 0.9px 0 #cccccc, 0 0.50px 0.30px rgba(0, 0, 0, 0.3);
+  }
+}
+
 
 .list-icons {
   position: relative;
@@ -447,34 +526,66 @@ header {
   transform: translate(40px, -40px);
   opacity: 1;
 }
+
 .list-icons__item:nth-child(1) .list-icons__item-span {
   background-color: #35A7DA;
 }
+
 .list-icons__item:hover .list-icons__item-span:nth-child(4) {
   transform: translate(30px, -30px);
   opacity: .8;
 }
+
 .list-icons__item:hover .list-icons__item-span:nth-child(3) {
   transform: translate(20px, -20px);
   opacity: .6;
 }
+
 .list-icons__item:nth-child(2) .list-icons__item-span {
   background-color: #D74E42;
 }
+
 .list-icons__item:nth-child(3) .list-icons__item-span {
   background-color: #0796D4;
 }
+
 .list-icons__item:hover .list-icons__item-span:nth-child(2) {
   transform: translate(10px, -10px);
   opacity: .4;
 }
+
 .list-icons__item:nth-child(4) .list-icons__item-span {
   background-color: #0670AE;
 }
+
 .list-icons__item:hover .list-icons__item-span:nth-child(1) {
   transform: translate(0, 0);
   opacity: .2;
 }
+
 .list-icons__item:nth-child(5) .list-icons__item-span {
   background-color: #302F2F;
+}
+
+.logo {
+  animation: animateLogo 1.5s linear infinite;
+}
+
+@keyframes animateLogo {
+  0%,
+  100% {
+    text-shadow: -1.5px -1.5px 0 #0ff, 1.5px 1.5px 0 #f00;
+  }
+
+  25% {
+    text-shadow: 1.5px 1.5px 0 #0ff, -1.5px -1.5px 0 #f00;
+  }
+
+  50% {
+    text-shadow: 1.5px -1.5px 0 #0ff, -1.5px 1.5px 0 #f00;
+  }
+
+  75% {
+    text-shadow: -1.5px 1.5px 0 #0ff, 1.5px -1.5px 0 #f00;
+  }
 }
