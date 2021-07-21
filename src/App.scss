@@ -45,7 +45,8 @@ body {
 header {
   height: 100px;
   .inner-header {
-    position: relative;
+    position: fixed;
+    width: 90%;
     z-index: 10;
     height: 100px;
     display: flex;
