@@ -41,7 +41,7 @@ function About() {
             user-friendly Web products from scratch. Using modern technologies
             to design websibtes and related
             materials. Love coding, have extensive
-            knowledge in JavaScript, Python, Vue, React <br/>
+            knowledge in JavaScript, Vue, NodeJS AWS <br/>
             <br/>
             <b>Current job:</b> BearsSoftware, software engineer,
             since 05/01/20 <br/><br/>
@@ -96,7 +96,7 @@ function About() {
 function Skills() {
     return (
         <p>
-            JavaScript(ES6), TypeScript, Python, React, AWS, Redux, Vue, VUEX, NodeJS, Express, CSS,
+            JavaScript(ES6), Vue, VUEX, TypeScript, NodeJS, Express, AWS, Python, React, Redux, CSS,
             HTML5, GSAP, BEM, SASS(SCSS), Unit Testing, Git, Firebase. <br/>
             <br/>
             <b>initial introduction:</b> Webpack, Flutter.
