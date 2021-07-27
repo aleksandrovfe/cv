@@ -69,8 +69,7 @@ const Hamburger = ({ state }) => {
               </nav>
               <div ref={(el) => (info = el)} className="info">
                 <p>
-                  I aim to improve my skills in web-developing as well as to learn new frameworks, IT languages, and approaches. New interesting
-                  tasks, which push me to increase my level, motivate me a lot and inspire to complete new more difficult ones.
+                  Every day, I strive to become a better Web Development professional. Learning new frameworks, programming languages, and approaches are tools I use in pushing myself forward day by day. My passion is solving complicated problems and the more complicated the problem is - the better.
                 </p>
               </div>
               <div className="list-links">

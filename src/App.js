@@ -35,15 +35,9 @@ function App() {
 function About() {
     return (
         <p>
-            I am an enthusiastic and well-motivated person looking for
-            opportunities in <b>WEB
-            Development.</b> Able to create high-quality and
-            user-friendly Web products from scratch. Using modern technologies
-            to design websibtes and related
-            materials. Love coding, have extensive
-            knowledge in JavaScript, Vue, NodeJS, AWS <br/>
+            I’M AN ENTHUSIASTIC AND SELF-DRIVEN <b>Software Engineer</b> WHO IS CONSTANTLY LOOKING FOR NEW OPPORTUNITIES. BEING ABLE TO DELIVER HIGH-QUALITY, USER-ORIENTED WEB SOLUTIONS MAKES ME A VALUABLE ADDITION TO ANY TEAM POSSIBLE. I’M IN LOVE WITH CODING AND I CAN SHOW OFF HIGH PROFICIENCY WITH JAVASCRIPT<br/>
             <br/>
-            <b>Current job:</b> BearsSoftware, software engineer,
+            <b>Current job:</b> BearsSoftware(Oversecured), software engineer,
             since 05/01/20 <br/><br/>
             <b>Frontend courses:</b> full-time online course 4 months HTML, CSS,
             JavaScript, React, Redux.<br/>
@@ -57,7 +51,7 @@ function About() {
                       href="https://eurolifedp.com/">&#8226;eurolife</a></b> -
                 freelance project, currently in production, has daily user
                 visits <br/>
-                Also with this project I am working on digital marketing CEO, SMM
+                Also with this project I am working on digital marketing (SEO, SMM)
                 <br/> <br/>
                 <strike>Can't show the code</strike> <br/><br/>
                 For development I used react, firebase (firebase functions,
@@ -82,8 +76,7 @@ function About() {
 
                 <b><a className="contact-link" target="_blank"
                       href="https://words-25285.web.app/"> &#8226;translator</a></b> -
-                This project was more to train the new GSAP animation framework
-                and the trendy 2021 glassmorphism approach <br/><br/>
+                MY PET PROJECT WHERE I PRACTICE THE NEW GSAP ANIMATION FRAMEWORK ALONG WITH THE MODERN UX/UI TRENDS <br/><br/>
                 <a href="https://github.com/aleksandrovfe/words"
                    className="contact-link" target="_blank">GitHub code</a>
                 <br/><br/>
@@ -99,7 +92,7 @@ function Skills() {
             JavaScript(ES6), Vue, VUEX, TypeScript, NodeJS, Express, AWS, Python, React, Redux, CSS,
             HTML5, GSAP, BEM, SASS(SCSS), Unit Testing, Git, Firebase. <br/>
             <br/>
-            <b>initial introduction:</b> Webpack, Flutter.
+            <b>HIGH-LEVEL UNDERSTANDING OF:</b> Webpack, Flutter.
             <br/> <br/>
             <b>Languages:</b> English (intermediate), Russian, Ukrainian.
         </p>
@@ -165,9 +158,7 @@ function Home() {
         <div className="container">
             <div className="wrapper">
                 <h5 className="home__text">
-                    Hi, I’m a <b> software engineer </b> and I hope that this site
-                    will help you become more familiar
-                    with my projects and my skills.
+                    Hi, I’m a <b> software engineer </b> and I created this website for you to become familiar with what I am capable of.
                 </h5>
             </div>
         </div>
