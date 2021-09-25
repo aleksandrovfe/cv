@@ -37,8 +37,8 @@ function About() {
         <p>
             I’M AN ENTHUSIASTIC AND SELF-DRIVEN <b>Software Engineer</b> WHO IS CONSTANTLY LOOKING FOR NEW OPPORTUNITIES. BEING ABLE TO DELIVER HIGH-QUALITY, USER-ORIENTED WEB SOLUTIONS MAKES ME A VALUABLE ADDITION TO ANY TEAM POSSIBLE. I’M IN LOVE WITH CODING AND I CAN SHOW OFF HIGH PROFICIENCY WITH JAVASCRIPT<br/>
             <br/>
-            <b>Current job:</b> BearsSoftware(Oversecured), software engineer,
-            since 05/01/20 <br/><br/>
+            <b>Current job:</b> SoftServe, software engineer, since 28/08/21 <br/>
+            <b>Experience:</b> BearsSoftware(Oversecured), software engineer, since 05/01/20 to 28/08/21 <br/><br/>
             <b>Frontend courses:</b> full-time online course 4 months HTML, CSS,
             JavaScript, React, Redux.<br/>
             <b>Internships(6 months)</b>: Epam - HTML, CSS, JavaScript,
@@ -89,12 +89,13 @@ function About() {
 function Skills() {
     return (
         <p>
-            JavaScript(ES6), Vue, VUEX, TypeScript, NodeJS, Express, AWS, Python, React, Redux, CSS,
+            Software Process and Life Cycle, Software Requirements, Software Design, Software Construction Management, Software Construction Design and Coding, Software Construction Testing and Debugging <br/><br/>
+            JavaScript(ES6), React, Redux, NodeJS, Express, AWS, Vue, VUEX, TypeScript, Python, CSS, Mocha, Jest,
             HTML5, GSAP, BEM, SASS(SCSS), Unit Testing, Git, Firebase. <br/>
             <br/>
             <b>HIGH-LEVEL UNDERSTANDING OF:</b> Webpack, Flutter.
-            <br/> <br/>
-            <b>Languages:</b> English (intermediate), Russian, Ukrainian.
+            <br/><br/>
+            <b>Languages:</b> English (intermediate strong), Russian.
         </p>
     );
 }
